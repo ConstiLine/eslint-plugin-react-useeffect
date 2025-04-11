@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-react-useeffect",
+  "version": "1.0.4",
+  "description": "ESLint plugin to check that all returns in useEffect/useLayoutEffect return a function",
+  "main": "lib/index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "react",
+    "hooks",
+    "useEffect",
+    "useLayoutEffect"
+  ],
+  "author": "ConstiLine",
+  "license": "MIT"
+}
