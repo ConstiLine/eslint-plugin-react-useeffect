@@ -1,4 +1,4 @@
-# eslint-plugin-react-useeffect-cleanup
+# eslint-plugin-react-useeffect
 
 An ESLint plugin to enforce proper cleanup functions in React useEffect/useLayoutEffect hooks.
 
@@ -13,11 +13,11 @@ By enforcing this rule, you can prevent unintended behaviors that might occur wh
 Install the plugin as a development dependency using package manager:
 
 ```bash
-npm install --save-dev eslint-plugin-react-useeffect-cleanup
+npm install --save-dev eslint-plugin-react-useeffect
 # or
-yarn add --dev eslint-plugin-react-useeffect-cleanup
+yarn add --dev eslint-plugin-react-useeffect
 # or
-pnpm install --dev eslint-plugin-react-useeffect-cleanup
+pnpm install --dev eslint-plugin-react-useeffect
 ```
 
 ## Usage
@@ -82,4 +82,5 @@ Contributions, bug reports, and feature requests are welcome. Please submit an i
 
 ## License
 
+[//]: # (todo LICENSE)
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
