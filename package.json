@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-useeffect",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint plugin to check that all returns in useEffect/useLayoutEffect return a function",
   "main": "lib/index.js",
   "keywords": [
