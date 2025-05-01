@@ -30,12 +30,12 @@ After installing, add the plugin to your ESLint configuration. For example, if y
 import reactUseEffect from 'eslint-plugin-react-useeffect'
 
 module.exports = {
-  plugins: { 'react-use-effect': reactUseEffect },
+  plugins: { 'react-useeffect': reactUseEffect },
   extends: [
     'eslint:recommended',
   ],
   rules: {
-    'react-use-effect/no-non-function-return': 'error',
+    'react-useeffect/no-non-function-return': 'error',
   },
 };
 ```
@@ -53,7 +53,7 @@ function MyComponent({ a, b }) {
       return; // ❌ Error: returns undefined instead of a cleanup function.
     }
 
-    return () => { clearInterval(b); }; // Correct usage
+    return () => { clearInterval(b); }; // ✅ Correct usage
   }, [a, b]);
 
   return <div>Example</div>;
@@ -83,4 +83,4 @@ Contributions, bug reports, and feature requests are welcome. Please submit an i
 ## License
 
 [//]: # (todo LICENSE)
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
